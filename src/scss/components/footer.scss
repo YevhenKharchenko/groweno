@@ -1,5 +1,5 @@
 .footer {
-  background: #0d0f0e;
+  background: #000;
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -35,16 +35,16 @@
 }
 
 .footer-link {
-  font-family: 'Lora', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.4;
+  font-family: 'Garamond', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
   text-align: center;
   color: #fff;
   transition: color 0.3s ease-in-out;
 
   @include media(desktop) {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   &:hover,
@@ -53,14 +53,14 @@
 }
 
 .footer-text {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Garamond', sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.4;
+  font-size: 18px;
+  line-height: 1.3;
   text-align: center;
-  color: #fff;
+  color: #d1d1d1;
 
   @include media(desktop) {
-    font-size: 18px;
+    font-size: 20px;
   }
 }

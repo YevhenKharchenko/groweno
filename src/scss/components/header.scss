@@ -1,5 +1,6 @@
 .header {
-  background: #750d1a;
+  backdrop-filter: blur(4px);
+  background: rgba(19, 27, 36, 0.5);
   padding: 6px 0;
   position: fixed;
   width: 100%;
@@ -46,12 +47,13 @@
 
 .nav-list-link {
   padding: 4px 8px;
-  font-family: 'Lora', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
+  font-family: 'Garamond', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
   line-height: 1.4;
+  text-transform: uppercase;
   text-align: center;
-  color: #fff;
+  color: #d1d1d1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,7 +63,7 @@
   &:focus,
   &:active,
   &.active {
-    color: #d8d8d8;
+    color: #d7b871;
   }
 }
 
