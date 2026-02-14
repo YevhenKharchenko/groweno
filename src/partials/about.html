@@ -1,22 +1,51 @@
 <section class="section about-section" id="about">
   <div class="about-bg-wrapper">
     <div class="container about-container">
-      <h2 class="section-title about-title">About The Game</h2>
-      <p class="about-text">
-        Carrom Party is basically the classic table game, but digital - it's
-        strategic when you want it to be, but you can also just jump in and
-        play. Honestly, it took us forever to figure out how to make this work
-        on such a small screen - turns out, simple controls and quick games are
-        the way to go. Whether you've got 30 seconds or 30 minutes, this game
-        works.
-      </p>
-      <div class="section-line-wrapper">
-        <div class="section-line"></div>
-        <svg class="section-icon" width="40" height="40">
-          <use href="./img/sprite.svg#icon-dice1"></use>
-        </svg>
-        <div class="section-line"></div>
+      <div class="section-title-wrapper">
+        <h2 class="section-title about-title">Game Essence</h2>
+        <picture>
+          <source
+            srcset="./img/about/line-desk.png"
+            media="(min-width: 1440px)"
+            width="416"
+            height="24" />
+          <source srcset="./img/about/line-mob.png" width="343" height="20" />
+          <img
+            class="section-line-img"
+            src="./img/about/line-mob.png"
+            alt="Line"
+            width="343"
+            height="20"
+        /></picture>
       </div>
+      <p class="about-text">
+        The puzzles really reward you for paying attention to the little details
+        and thinking ahead - like, you can't just wing it Each level presents a
+        clear objective but multiple ways to reach it, allowing players to
+        develop their own approach.
+      </p>
+      <p class="about-bottom-text">
+        You'll feel like you're actually getting somewhere with each level,
+        whether you've got 5 minutes or an hour to play.
+      </p>
+      <picture>
+        <source
+          srcset="./img/about/about-img-desk.png"
+          media="(min-width: 1440px)"
+          width="1096"
+          height="991" />
+        <source
+          srcset="./img/about/about-img-mob.png"
+          width="343"
+          height="310" />
+        <img
+          class="about-img"
+          src="./img/about/about-img-mob.png"
+          alt="Screenshot of the game"
+          width="343"
+          height="310"
+          loading="lazy"
+      /></picture>
     </div>
   </div>
 </section>

@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://creativebasea.com/sitemap.xml
+Sitemap: https://groweno.site/sitemap.xml

@@ -1,22 +1,25 @@
 .gallery-section {
-  background: linear-gradient(180deg, #152972 0%, #480d8e 100%);
-
   @include media(desktop) {
   }
 }
 
 .gallery-bg-wrapper {
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-top: 72px;
+  padding-bottom: 72px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
+  background-image: url(../img/gallery/gallery-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
   overflow: hidden;
 
   @include media(desktop) {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     max-width: 1440px;
+    background-image: url(../img/gallery/gallery-bg-desk.jpg);
   }
 }
 
@@ -25,24 +28,14 @@
   }
 }
 
-.gallery-title {
+.gallery-title-wrapper {
   @include media(desktop) {
+    margin-bottom: 80px;
   }
 }
 
-.gallery-text {
-  font-family: 'Lora', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.4;
-  text-align: center;
-  color: #cdf;
-
+.gallery-title {
   @include media(desktop) {
-    font-size: 18px;
-    max-width: 640px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
@@ -50,7 +43,6 @@
   max-width: 343px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 24px;
 
   @include media(desktop) {
     max-width: 1440px;

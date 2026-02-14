@@ -1,34 +1,64 @@
 <section class="section play-section" id="play">
   <div class="play-bg-wrapper">
     <div class="container play-container">
-      <h2 class="section-title play-title">How To Play</h2>
+      <div class="section-title-wrapper">
+        <h2 class="section-title play-title">Player Interaction Flow</h2>
+        <picture>
+          <source
+            srcset="./img/about/line-desk.png"
+            media="(min-width: 1440px)"
+            width="416"
+            height="24" />
+          <source srcset="./img/about/line-mob.png" width="343" height="20" />
+          <img
+            class="section-line-img"
+            src="./img/about/line-mob.png"
+            alt="Line"
+            width="343"
+            height="20"
+        /></picture>
+      </div>
       <p class="play-text">
-        The game is played by tapping and dragging to aim your striker, then
-        releasing to flick and pocket pieces. Success depends on precision and
-        positioning rather than raw power. Matches are fast-paced, but
-        thoughtful aiming is key to winning.
+        The difficulty curve is carefully balanced: new mechanics are introduced
+        gradually, allowing players to learn naturally without sudden spikes or
+        frustration.
       </p>
       <ul class="play-list">
         <li class="play-list-item">
-          <p class="play-item-text">Tap and drag to aim</p>
+          <svg class="play-icon" width="40" height="40">
+            <use href="./img/sprite.svg#icon-play1"></use>
+          </svg>
+          <p class="play-item-text">
+            Analyze the board and spot key patterns before making a move
+          </p>
         </li>
         <li class="play-list-item">
-          <p class="play-item-text">Release to flick and pocket pieces</p>
+          <svg class="play-icon" width="40" height="40">
+            <use href="./img/sprite.svg#icon-play2"></use>
+          </svg>
+          <p class="play-item-text">
+            Make thoughtful, logic-driven decisions — timing matters more than
+            speed
+          </p>
         </li>
         <li class="play-list-item">
-          <p class="play-item-text">Precision matters more than force</p>
+          <svg class="play-icon" width="40" height="40">
+            <use href="./img/sprite.svg#icon-play3"></use>
+          </svg>
+          <p class="play-item-text">
+            Plan ahead to avoid blocking future options
+          </p>
         </li>
         <li class="play-list-item">
-          <p class="play-item-text">Simple controls designed for Wear OS</p>
+          <svg class="play-icon" width="40" height="40">
+            <use href="./img/sprite.svg#icon-play4"></use>
+          </svg>
+          <p class="play-item-text">
+            Progress through objectives and unlock new mechanics as the game
+            evolves
+          </p>
         </li>
       </ul>
-      <div class="section-line-wrapper play-line-wrapper">
-        <div class="section-line"></div>
-        <svg class="section-icon" width="40" height="40">
-          <use href="./img/sprite.svg#icon-goblet"></use>
-        </svg>
-        <div class="section-line"></div>
-      </div>
     </div>
   </div>
 </section>

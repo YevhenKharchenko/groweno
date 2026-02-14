@@ -1,11 +1,10 @@
 .faq-section {
-  background: #0d0f0e;
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-top: 72px;
+  padding-bottom: 72px;
 
   @include media(desktop) {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 112px;
+    padding-bottom: 112px;
   }
 }
 
@@ -14,28 +13,43 @@
   }
 }
 
+.faq-title-wrapper {
+  @include media(desktop) {
+    margin-bottom: 80px;
+  }
+}
+
 .faq-title {
-  font-size: 52px;
-  margin-bottom: 48px;
+  @include media(desktop) {
+  }
+}
+
+.faq-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
 
   @include media(desktop) {
-    margin-bottom: 64px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 62px;
   }
 }
 
 .faq-list {
   display: flex;
   flex-direction: column;
-  gap: 16px;
 
   @include media(desktop) {
+    width: 100%;
+    max-width: 640px;
   }
 }
 
 .faq-list-item {
-  background: #152972;
-  border-radius: 8px;
-  padding: 20px 16px;
+  border-bottom: 1px solid #907b60;
+  padding: 20px 0px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -60,15 +74,15 @@
 }
 
 .faq-btn-text {
-  font-family: 'Lora', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.4;
-  color: #cdf;
+  font-family: 'Garamond', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
+  color: #d7b871;
   text-align: left;
 
   @include media(desktop) {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -91,20 +105,20 @@
 }
 
 .faq-bottom-text {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Garamond', sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.4;
-  color: #cdf;
-  max-width: 287px;
+  font-size: 18px;
+  line-height: 1.3;
+  color: #d1d1d1;
+  max-width: 319px;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   opacity: 0;
 
   @include media(desktop) {
-    font-size: 18px;
-    max-width: 584px;
+    font-size: 20px;
+    max-width: 616px;
   }
 }
 
@@ -128,7 +142,7 @@
 }
 
 .faq-img {
-  box-shadow: 4px 4px 20px 0 rgba(142, 142, 142, 0.25);
-  border: 8px solid #fff;
-  border-radius: 36px;
+  @include media(desktop) {
+    min-width: 386px;
+  }
 }
